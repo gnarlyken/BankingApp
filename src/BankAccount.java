@@ -14,7 +14,7 @@ public class BankAccount {
 
     }
     //Deposit functionality
-    public  void deposit(double amount) {
+    public void deposit(double amount) {
         _balance = _balance + amount;
         System.out.println();
         System.out.println(amount + " euros was successfully deposited on your bank account. ");

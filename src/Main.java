@@ -22,8 +22,8 @@ public class Main {
         user.set_balance(0);
         System.out.println(user.get_balance());
 
-        user.deposit(1000);
-        user.withdraw(50);
+        user.deposit(10);
+        user.withdraw(20);
 
         user.printBalance();
         //Second user
