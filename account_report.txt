@@ -1,0 +1,8 @@
+Account ID: 1
+Account Name: RENAT
+Balance: 150.0
+
+Account ID: 2
+Account Name: Deniss
+Balance: 4948.0
+
