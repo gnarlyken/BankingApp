@@ -1,8 +1,8 @@
-Account ID: 9
-Account Name: Ramil
-Balance: 400.0
+Account ID: lazar20
+Account Name: Artur
+Balance: 2.0
 
-Account ID: 10
-Account Name: Renat
-Balance: 420.0
+Account ID: denis10
+Account Name: Valerij
+Balance: 999999.0
 

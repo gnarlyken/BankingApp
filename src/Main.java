@@ -63,7 +63,7 @@ public class Main {
                     System.out.println("Exiting...");
                     System.exit(0);
                 default:
-                    System.out.println("Invalid choice. Please enter a number between 1 and 6.");
+                    System.out.println("Invalid choice. Please enter a number between 1 and 7.");
             }
         }
     }
