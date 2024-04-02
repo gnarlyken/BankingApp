@@ -38,13 +38,17 @@ public class BankAccount {
     }
 
     public void transfer(BankAccount targetAccount, double amount) {
-        if (balance >= amount) {
-            balance -= amount;
-            targetAccount.balance += amount;
-            System.out.println(amount + " euros transferred successfully from account " + id + " to account " + targetAccount.id);
-            System.out.println("Your remaining balance: " + balance);
+        if (this != targetAccount) { // Check if transferring to self
+            if (balance >= amount) {
+                balance -= amount;
+                targetAccount.balance += amount;
+                System.out.println(amount + " euros transferred successfully from account " + id + " to account " + targetAccount.id);
+                System.out.println("Your remaining balance: " + balance);
+            } else {
+                System.out.println("Insufficient funds for transfer from account " + id);
+            }
         } else {
-            System.out.println("Insufficient funds for transfer from account " + id);
+            System.out.println("Cannot transfer funds to the same account.");
         }
     }
 
