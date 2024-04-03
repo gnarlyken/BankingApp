@@ -1,8 +1,0 @@
-Account ID: lazar20
-Account Name: Artur
-Balance: 2.0
-
-Account ID: denis10
-Account Name: Valerij
-Balance: 999999.0
-
